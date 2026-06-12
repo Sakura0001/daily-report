@@ -1,0 +1,13 @@
+# 令牌和敏感配置
+.env
+.claude/
+.impeccable/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+
+# 系统文件
+.DS_Store
+*.log
