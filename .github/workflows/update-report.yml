@@ -1,0 +1,54 @@
+name: Update Daily Report
+on:
+  schedule:
+    - cron: '3 * * * *'   # 每小时第3分钟（避开整点高峰）
+  workflow_dispatch:        # 手动触发
+  push:
+    branches: [main]        # 手动推送也触发部署
+permissions:
+  contents: write           # 推送更新
+  pages: write              # Pages 部署
+  id-token: write           # Pages OIDC
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch data & generate HTML
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/update_report.py
+
+      - name: Commit & push changes
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "daily-report-bot"
+          git config user.email "bot@daily-report.dev"
+          git add index.html
+          git diff --cached --quiet && echo "No data changes" && exit 0 || git commit -m "feat: auto-update daily report data"
+          git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
