@@ -193,7 +193,7 @@
         <h1>日报<span class="brand-en">Daily Report</span></h1>
       </div>
       <div class="date-info">
-        <time datetime="2026-06-15">2026年06月15日</time> · 星期一 · 17:57 更新
+        <time datetime="2026-06-15">2026年06月15日</time> · 星期一 · 23:42 更新
       </div>
     </div>
     <hr class="header-rule">
@@ -206,36 +206,36 @@
       <div class="crypto-item">
         <span class="crypto-name">BTC</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$65,540.00</span>
-          <span class="crypto-badge rise">▲ +1.49%</span>
+          <span class="crypto-value">$66,799.00</span>
+          <span class="crypto-badge rise">▲ +4.35%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">ETH</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$1,716.86</span>
-          <span class="crypto-badge rise">▲ +2.35%</span>
+          <span class="crypto-value">$1,824.41</span>
+          <span class="crypto-badge rise">▲ +9.76%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">BNB</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$614.02</span>
-          <span class="crypto-badge rise">▲ +0.40%</span>
+          <span class="crypto-value">$626.77</span>
+          <span class="crypto-badge rise">▲ +3.25%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">SOL</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$71.07</span>
-          <span class="crypto-badge rise">▲ +3.95%</span>
+          <span class="crypto-value">$74.26</span>
+          <span class="crypto-badge rise">▲ +10.14%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">DOGE</span>
         <div class="crypto-price-row">
           <span class="crypto-value">$0.09</span>
-          <span class="crypto-badge rise">▲ +1.26%</span>
+          <span class="crypto-badge rise">▲ +4.01%</span>
         </div>
       </div>
     </div>
@@ -271,18 +271,18 @@
 
         <div class="market-item">
           <span class="market-name">标普500</span>
-          <span class="market-value">7,431.46</span>
-          <span class="market-badge rise">▲ +0.50%</span>
+          <span class="market-value">7,563.62</span>
+          <span class="market-badge rise">▲ +1.78%</span>
         </div>
         <div class="market-item">
           <span class="market-name">纳斯达克</span>
-          <span class="market-value">25,888.84</span>
-          <span class="market-badge rise">▲ +0.31%</span>
+          <span class="market-value">26,609.85</span>
+          <span class="market-badge rise">▲ +2.79%</span>
         </div>
         <div class="market-item">
           <span class="market-name">道琼斯</span>
-          <span class="market-value">51,202.26</span>
-          <span class="market-badge rise">▲ +0.70%</span>
+          <span class="market-value">51,849.00</span>
+          <span class="market-badge rise">▲ +1.26%</span>
         </div>
     </div>
   </section>
@@ -292,26 +292,42 @@
       <h2 class="section-title">今日焦点 · AI 热榜</h2>
 
       <article class="hero-lead">
-        <h3 class="hero-headline"><a href="https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus">Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上</a></h3>
-        <p class="hero-desc">UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd&#x27;s k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。</p>
+        <h3 class="hero-headline"><a href="https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww">MiniMax 开源 M3 模型权重及 MSA 技术论文</a></h3>
+        <p class="hero-desc">MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本。M3 是首个从预训练阶段就进行文本、图像等多模态交错混合训练的开源模型。发布两周后，M3 在 Artificial Analysis 综合智能指数、GDPval-AA 排行榜均获开源模型第一，Code Arena WebDev 跻身帕累托最优序列，Vals.AI 榜单居国产模型首位。输出速度已从约 30 TPS 提升至约 80 TPS，计划再提速 30-40%；Token Plan 后台新增调用量看板。</p>
       </article>
       <div class="card">
         <ol class="ai-list">
 
           <li>
-            <span class="ai-item-title"><a href="https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus">Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上</a></span>
+            <span class="ai-item-title"><a href="https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww">MiniMax 开源 M3 模型权重及 MSA 技术论文</a></span>
+            <span class="ai-item-tag">模型</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b">Salesforce以36亿美元收购AI客服平台Fin</a></span>
+            <span class="ai-item-tag">行业</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military">Skydio CEO Adam Bry：硅谷不应为无人机使用画红线</a></span>
+            <span class="ai-item-tag">观点</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://x.com/rohanpaul_ai/status/2066513228218150988">美国白宫因中国访问担忧对Anthropic Mythos模型实施出口限制</a></span>
+            <span class="ai-item-tag">行业</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw">6倍速！Kimi K2.7 Code 高速版已上线</a></span>
             <span class="ai-item-tag">产品</span>
           </li>
           <li>
-            <span class="ai-item-title"><a href="https://www.bloomberg.com/news/videos/2026-06-15/us-orders-anthropic-to-block-foreign-access-to-mythos-video">美国命令Anthropic阻止外国人访问Mythos</a></span>
-            <span class="ai-item-tag">行业</span>
+            <span class="ai-item-title"><a href="https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus">Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上</a></span>
+            <span class="ai-item-tag">产品</span>
           </li>
           <li>
             <span class="ai-item-title"><a href="https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg">AI裁员浪潮成为火药桶</a></span>
             <span class="ai-item-tag">观点</span>
           </li>
         </ol>
-        <p class="update-time">数据来源：aihot.virxact.com · 更新 17:57</p>
+        <p class="update-time">数据来源：aihot.virxact.com · 更新 23:42</p>
       </div>
     </section>
 
@@ -322,22 +338,22 @@
         <div class="data-row">
           <span class="data-label">沪金主连</span>
           <div class="data-value-group">
-            <span class="data-price">938.94</span>
+            <span class="data-price">949.18</span>
             <span class="data-unit">元/克</span>
-            <span class="data-badge rise">▲ +4.22%</span>
-            <span class="yesterday">昨收 900.92</span>
+            <span class="data-badge rise">▲ +2.45%</span>
+            <span class="yesterday">昨收 926.48</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪银主连</span>
           <div class="data-value-group">
-            <span class="data-price">16.88</span>
+            <span class="data-price">17.00</span>
             <span class="data-unit">元/克</span>
-            <span class="data-badge rise">▲ +7.70%</span>
-            <span class="yesterday">昨收 15.67</span>
+            <span class="data-badge rise">▲ +3.35%</span>
+            <span class="yesterday">昨收 16.45</span>
           </div>
         </div>
-        <p class="update-time">沪金/沪银主连 · 更新 17:57</p>
+        <p class="update-time">沪金/沪银主连 · 更新 23:42</p>
       </div>
 
       <div class="card">
@@ -346,40 +362,40 @@
         <div class="data-row">
           <span class="data-label">沪铜主连</span>
           <div class="data-value-group">
-            <span class="data-price">105,590</span>
+            <span class="data-price">105,230</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +1.27%</span>
-            <span class="yesterday">昨收 104,266.00</span>
+            <span class="data-badge fall">▼ -0.12%</span>
+            <span class="yesterday">昨收 105,356.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪铝主连</span>
           <div class="data-value-group">
-            <span class="data-price">24,170</span>
+            <span class="data-price">23,780</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +0.00%</span>
-            <span class="yesterday">昨收 24,170.00</span>
+            <span class="data-badge fall">▼ -1.86%</span>
+            <span class="yesterday">昨收 24,231.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪锌主连</span>
           <div class="data-value-group">
-            <span class="data-price">24,830</span>
+            <span class="data-price">24,775</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +2.33%</span>
-            <span class="yesterday">昨收 24,265.00</span>
+            <span class="data-badge rise">▲ +0.38%</span>
+            <span class="yesterday">昨收 24,681.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪镍主连</span>
           <div class="data-value-group">
-            <span class="data-price">136,490</span>
+            <span class="data-price">135,570</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +1.52%</span>
-            <span class="yesterday">昨收 134,446.00</span>
+            <span class="data-badge rise">▲ +0.18%</span>
+            <span class="yesterday">昨收 135,326.00</span>
           </div>
         </div>
-        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 17:57</p>
+        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 23:42</p>
       </div>
     </aside>
 
@@ -388,18 +404,18 @@
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650750201397952558/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%229%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650750201397952558%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A5%B3%E5%AD%A9%E5%AE%B6%E4%B8%AD%E5%A4%B1%E7%81%AB%E8%AF%95%E5%8D%B7%E8%A2%AB%E7%83%A7+%E6%B6%88%E9%98%B2%E9%80%81%E6%96%B0%E8%AF%95%E5%8D%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650750201397952558">女孩家中失火试卷被烧 消防送新试卷</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651468477718495274/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651468477718495274%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BD%91%E5%8F%8B%E6%8B%8D%E5%88%B0%E5%B0%8F%E9%B8%9F%E5%90%83%E8%BE%A3%E6%A4%92%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651468477718495274">网友拍到小鸟吃辣椒</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650852381509140534/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650852381509140534%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B0%8F%E6%B2%88%E9%98%B3%E6%90%BA%E5%A5%B3%E5%84%BF%E6%B2%88%E4%BD%B3%E6%B6%A6%E6%9D%A5%E6%AF%9B%E9%9B%AA%E6%B1%AA%E5%81%9A%E5%AE%A2%E4%BA%86%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650852381509140534">小沈阳携女儿沈佳润来毛雪汪做客了</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651459239369818148/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651459239369818148%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B8%82%E6%B0%91%E9%80%9A%E5%8E%95%E6%89%80%E8%A2%AB%E2%80%9C%E5%8C%96%E9%AA%A8%E6%B0%B4%E2%80%9D%E7%83%A7%E4%BC%A4%E8%BF%9BICU%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651459239369818148">市民通厕所被“化骨水”烧伤进ICU</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650331910644842542/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650331910644842542%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%BB%E6%8C%81%E4%BA%BA%EF%BC%9AC%E7%BD%97%E6%AD%A3%E6%AF%81%E6%8E%89%E8%91%A1%E8%90%84%E7%89%99%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%BA%E4%BC%9A%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650331910644842542">主持人：C罗正毁掉葡萄牙夺世界杯机会</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650622872586584102/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650622872586584102%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%96%E7%95%8C%E6%9D%AF%E7%90%83%E5%9C%BA%E4%B8%80%E7%93%B6%E6%B0%B4%E5%8D%9635%E5%85%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650622872586584102">世界杯球场一瓶水卖35元</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650812871554760745/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650812871554760745%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B9%BF%E4%B8%9C%E9%83%A8%E5%88%86%E4%B8%AD%E5%B0%8F%E6%B2%B3%E6%B5%81%E5%B7%B2%E5%8F%91%E7%94%9F%E6%B4%AA%E6%B0%B4%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650812871554760745">广东部分中小河流已发生洪水</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651131985116614185/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651131985116614185%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651131985116614185">中方回应美伊达成和平协议</a><span class="hot-label">hot</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651532582789582377/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651532582789582377%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BB%A5%E5%86%9B%E5%AF%B9%E9%BB%8E%E5%8D%97%E9%83%A8%E5%A4%9A%E5%9C%B0%E5%8F%91%E5%8A%A8%E8%A2%AD%E5%87%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651532582789582377">以军对黎南部多地发动袭击</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651415301472403492/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651415301472403492%22%2C%22hot_board_impr_id%22%3A%2220260615175719D96ED8CB366B2555F14E%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%BF%99%E4%BA%9B%E6%89%80%E8%B0%93%E2%80%9C%E9%A9%BE%E8%80%83%E8%A7%A3%E8%AF%BB%E2%80%9D%E7%B3%BB%E8%AF%AF%E5%AF%BC%E8%A7%86%E9%A2%91%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651415301472403492">这些所谓“驾考解读”系误导视频</a><span class="hot-label">refuteRumors</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651560539424620580/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651560539424620580%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8D%B0%E5%BA%A6%E5%A5%B3%E9%83%A8%E9%95%BF%E8%A2%AB%E6%94%AF%E6%8C%81%E8%80%85%E6%89%A3%E4%BA%86%E4%B8%80%E8%84%91%E8%A2%8B%E7%B1%B3%E5%B8%83%E4%B8%81%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651560539424620580">印度女部长被支持者扣了一脑袋米布丁</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651042940039168006/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651042940039168006%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2237%E5%B2%81%E6%A2%81%E6%B4%9B%E6%96%BD%E7%94%9F%E5%9B%BE%E7%8A%B6%E6%80%81%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651042940039168006">37岁梁洛施生图状态</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651136667902017590/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651136667902017590%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A4%A7%E7%96%86Osmo+Pocket+4P%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651136667902017590">大疆Osmo Pocket 4P正式发布</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650465919038619689/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650465919038619689%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BD%91%E4%BC%A0%E5%8D%97%E9%80%9A%E2%80%9C%E6%A1%A5%E6%8E%89%E4%B8%8B%E6%9D%A5%E4%BA%86%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650465919038619689">网传南通“桥掉下来了”系谣言</a><span class="hot-label">refuteRumors</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651475145749397510/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651475145749397510%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E8%B6%853900%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651475145749397510">A股超3900只个股上涨</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651108881758240778/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651108881758240778%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%BC%80%E5%B0%81%E9%80%9A%E8%AE%B8%E6%9D%91%E6%B0%91%E5%8F%91%E7%8E%B0%E4%B8%80%E7%94%B7%E7%AB%A5%E9%81%97%E4%BD%93%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651108881758240778">开封通许村民发现一男童遗体</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650456833015676978/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650456833015676978%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%AF%BA%E5%A5%96%E5%BE%97%E4%B8%BB%E7%82%AE%E8%BD%B0%E9%A9%AC%E6%96%AF%E5%85%8B%E6%98%AF%E7%9C%9F%E4%BA%BA%E7%89%88%E5%BA%9E%E6%B0%8F%E9%AA%97%E5%B1%80%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650456833015676978">诺奖得主炮轰马斯克是真人版庞氏骗局</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650835102884675630/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650835102884675630%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BC%8A%E6%9C%97%E4%B8%8E%E7%BE%8E%E5%9B%BD%E5%B0%86%E4%BA%8E19%E6%97%A5%E7%AD%BE%E7%BD%B2%E8%B0%85%E8%A7%A3%E5%A4%87%E5%BF%98%E5%BD%95%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650835102884675630">伊朗与美国将于19日签署谅解备忘录</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651602287001305107/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651602287001305107%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E5%8F%82%E5%8A%A0%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%BA%B2%E5%AD%90%E8%BF%B7%E4%BD%A0%E9%A9%AC%E6%8B%89%E6%9D%BE%E7%8C%9D%E6%AD%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651602287001305107">男子参加幼儿园亲子迷你马拉松猝死</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651272977132109833/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651272977132109833%22%2C%22hot_board_impr_id%22%3A%22202606152342190675DF3A08036FDE3572%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%223%E4%BA%BF%E5%8C%97%E6%96%97%E5%B7%A5%E7%A8%8B%E7%8E%B0%E2%80%9C%E8%84%86%E7%9A%AE%E5%BA%95%E5%BA%A7%E2%80%9D%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651272977132109833">3亿北斗工程现“脆皮底座”</a></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条热榜 · 更新 17:57</p>
+        <p class="update-time">数据来源：今日头条热榜 · 更新 23:42</p>
       </div>
     </section>
 
@@ -419,7 +435,7 @@
           <li><span class="rank-item-title">天孚通信</span><span class="stock-badge rise">▲ +8.57%</span></li>
           <li><span class="rank-item-title">中天科技</span><span class="stock-badge rise">▲ +5.66%</span></li>
         </ol>
-        <p class="update-time">成交额排行前10 · 更新 17:57</p>
+        <p class="update-time">成交额排行前10 · 更新 23:42</p>
       </div>
     </section>
 
@@ -439,7 +455,7 @@
           <li><span class="rank-item-title">安徽板块</span><span class="sector-badge rise">强势</span><span class="sector-change rise">▲ +1.94%</span></li>
           <li><span class="rank-item-title">湖南板块</span><span class="sector-badge rise">强势</span><span class="sector-change rise">▲ +1.82%</span></li>
         </ol>
-        <p class="update-time">行业板块涨跌幅排行 · 更新 17:57</p>
+        <p class="update-time">行业板块涨跌幅排行 · 更新 23:42</p>
       </div>
     </section>
 
@@ -448,18 +464,18 @@
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650750201397952558/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%229%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650750201397952558%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A5%B3%E5%AD%A9%E5%AE%B6%E4%B8%AD%E5%A4%B1%E7%81%AB%E8%AF%95%E5%8D%B7%E8%A2%AB%E7%83%A7+%E6%B6%88%E9%98%B2%E9%80%81%E6%96%B0%E8%AF%95%E5%8D%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650750201397952558">女孩家中失火试卷被烧 消防送新试卷</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651468477718495274/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651468477718495274%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BD%91%E5%8F%8B%E6%8B%8D%E5%88%B0%E5%B0%8F%E9%B8%9F%E5%90%83%E8%BE%A3%E6%A4%92%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651468477718495274">网友拍到小鸟吃辣椒</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650852381509140534/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650852381509140534%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B0%8F%E6%B2%88%E9%98%B3%E6%90%BA%E5%A5%B3%E5%84%BF%E6%B2%88%E4%BD%B3%E6%B6%A6%E6%9D%A5%E6%AF%9B%E9%9B%AA%E6%B1%AA%E5%81%9A%E5%AE%A2%E4%BA%86%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650852381509140534">小沈阳携女儿沈佳润来毛雪汪做客了</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651459239369818148/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651459239369818148%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B8%82%E6%B0%91%E9%80%9A%E5%8E%95%E6%89%80%E8%A2%AB%E2%80%9C%E5%8C%96%E9%AA%A8%E6%B0%B4%E2%80%9D%E7%83%A7%E4%BC%A4%E8%BF%9BICU%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651459239369818148">市民通厕所被“化骨水”烧伤进ICU</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650331910644842542/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650331910644842542%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%BB%E6%8C%81%E4%BA%BA%EF%BC%9AC%E7%BD%97%E6%AD%A3%E6%AF%81%E6%8E%89%E8%91%A1%E8%90%84%E7%89%99%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E6%9C%BA%E4%BC%9A%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650331910644842542">主持人：C罗正毁掉葡萄牙夺世界杯机会</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650622872586584102/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650622872586584102%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%96%E7%95%8C%E6%9D%AF%E7%90%83%E5%9C%BA%E4%B8%80%E7%93%B6%E6%B0%B4%E5%8D%9635%E5%85%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650622872586584102">世界杯球场一瓶水卖35元</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650812871554760745/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650812871554760745%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B9%BF%E4%B8%9C%E9%83%A8%E5%88%86%E4%B8%AD%E5%B0%8F%E6%B2%B3%E6%B5%81%E5%B7%B2%E5%8F%91%E7%94%9F%E6%B4%AA%E6%B0%B4%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650812871554760745">广东部分中小河流已发生洪水</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651131985116614185/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651131985116614185%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E4%BC%8A%E8%BE%BE%E6%88%90%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651131985116614185">中方回应美伊达成和平协议</a><span class="hot-label">hot</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651532582789582377/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651532582789582377%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BB%A5%E5%86%9B%E5%AF%B9%E9%BB%8E%E5%8D%97%E9%83%A8%E5%A4%9A%E5%9C%B0%E5%8F%91%E5%8A%A8%E8%A2%AD%E5%87%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651532582789582377">以军对黎南部多地发动袭击</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651415301472403492/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651415301472403492%22%2C%22hot_board_impr_id%22%3A%22202606151757210540161FCF4787D6A141%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%BF%99%E4%BA%9B%E6%89%80%E8%B0%93%E2%80%9C%E9%A9%BE%E8%80%83%E8%A7%A3%E8%AF%BB%E2%80%9D%E7%B3%BB%E8%AF%AF%E5%AF%BC%E8%A7%86%E9%A2%91%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651415301472403492">这些所谓“驾考解读”系误导视频</a><span class="hot-label">refuteRumors</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651560539424620580/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651560539424620580%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8D%B0%E5%BA%A6%E5%A5%B3%E9%83%A8%E9%95%BF%E8%A2%AB%E6%94%AF%E6%8C%81%E8%80%85%E6%89%A3%E4%BA%86%E4%B8%80%E8%84%91%E8%A2%8B%E7%B1%B3%E5%B8%83%E4%B8%81%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651560539424620580">印度女部长被支持者扣了一脑袋米布丁</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651042940039168006/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651042940039168006%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2237%E5%B2%81%E6%A2%81%E6%B4%9B%E6%96%BD%E7%94%9F%E5%9B%BE%E7%8A%B6%E6%80%81%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651042940039168006">37岁梁洛施生图状态</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651136667902017590/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651136667902017590%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%A4%A7%E7%96%86Osmo+Pocket+4P%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651136667902017590">大疆Osmo Pocket 4P正式发布</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650465919038619689/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650465919038619689%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%BD%91%E4%BC%A0%E5%8D%97%E9%80%9A%E2%80%9C%E6%A1%A5%E6%8E%89%E4%B8%8B%E6%9D%A5%E4%BA%86%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650465919038619689">网传南通“桥掉下来了”系谣言</a><span class="hot-label">refuteRumors</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651475145749397510/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651475145749397510%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22A%E8%82%A1%E8%B6%853900%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651475145749397510">A股超3900只个股上涨</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651108881758240778/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651108881758240778%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%BC%80%E5%B0%81%E9%80%9A%E8%AE%B8%E6%9D%91%E6%B0%91%E5%8F%91%E7%8E%B0%E4%B8%80%E7%94%B7%E7%AB%A5%E9%81%97%E4%BD%93%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651108881758240778">开封通许村民发现一男童遗体</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650456833015676978/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650456833015676978%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%AF%BA%E5%A5%96%E5%BE%97%E4%B8%BB%E7%82%AE%E8%BD%B0%E9%A9%AC%E6%96%AF%E5%85%8B%E6%98%AF%E7%9C%9F%E4%BA%BA%E7%89%88%E5%BA%9E%E6%B0%8F%E9%AA%97%E5%B1%80%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650456833015676978">诺奖得主炮轰马斯克是真人版庞氏骗局</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7650835102884675630/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227650835102884675630%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BC%8A%E6%9C%97%E4%B8%8E%E7%BE%8E%E5%9B%BD%E5%B0%86%E4%BA%8E19%E6%97%A5%E7%AD%BE%E7%BD%B2%E8%B0%85%E8%A7%A3%E5%A4%87%E5%BF%98%E5%BD%95%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7650835102884675630">伊朗与美国将于19日签署谅解备忘录</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651602287001305107/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651602287001305107%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E5%8F%82%E5%8A%A0%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%BA%B2%E5%AD%90%E8%BF%B7%E4%BD%A0%E9%A9%AC%E6%8B%89%E6%9D%BE%E7%8C%9D%E6%AD%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651602287001305107">男子参加幼儿园亲子迷你马拉松猝死</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7651272977132109833/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227651272977132109833%22%2C%22hot_board_impr_id%22%3A%22202606152342213D0DED0457BDF62B60A3%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%223%E4%BA%BF%E5%8C%97%E6%96%97%E5%B7%A5%E7%A8%8B%E7%8E%B0%E2%80%9C%E8%84%86%E7%9A%AE%E5%BA%95%E5%BA%A7%E2%80%9D%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7651272977132109833">3亿北斗工程现“脆皮底座”</a></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条财经热榜 · 更新 17:57</p>
+        <p class="update-time">数据来源：今日头条财经热榜 · 更新 23:42</p>
       </div>
     </section>
 
@@ -499,14 +515,14 @@
             <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">历史新高</span><span class="theme-change rise">▲ +7.04%</span></div>
           </li>
         </ol>
-        <p class="update-time">概念板块涨跌幅排行 · 更新 17:57</p>
+        <p class="update-time">概念板块涨跌幅排行 · 更新 23:42</p>
       </div>
     </section>
 </main>
 
   <footer>
     <p class="footer-brand">日报</p>
-    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年06月15日 17:57</p>
+    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年06月15日 23:42</p>
   </footer>
 </body>
 </html>
