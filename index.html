@@ -193,7 +193,7 @@
         <h1>日报<span class="brand-en">Daily Report</span></h1>
       </div>
       <div class="date-info">
-        <time datetime="2026-06-26">2026年06月26日</time> · 星期五 · 07:12 更新
+        <time datetime="2026-06-26">2026年06月26日</time> · 星期五 · 10:49 更新
       </div>
     </div>
     <hr class="header-rule">
@@ -206,36 +206,36 @@
       <div class="crypto-item">
         <span class="crypto-name">BTC</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$59,766.00</span>
-          <span class="crypto-badge fall">▼ -1.67%</span>
+          <span class="crypto-value">$58,659.00</span>
+          <span class="crypto-badge fall">▼ -3.38%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">ETH</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$1,567.14</span>
-          <span class="crypto-badge fall">▼ -2.89%</span>
+          <span class="crypto-value">$1,529.30</span>
+          <span class="crypto-badge fall">▼ -5.32%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">BNB</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$558.81</span>
-          <span class="crypto-badge fall">▼ -0.60%</span>
+          <span class="crypto-value">$552.97</span>
+          <span class="crypto-badge fall">▼ -2.16%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">SOL</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$67.00</span>
-          <span class="crypto-badge fall">▼ -1.10%</span>
+          <span class="crypto-value">$66.48</span>
+          <span class="crypto-badge fall">▼ -1.75%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">DOGE</span>
         <div class="crypto-price-row">
           <span class="crypto-value">$0.07</span>
-          <span class="crypto-badge fall">▼ -1.55%</span>
+          <span class="crypto-badge fall">▼ -4.09%</span>
         </div>
       </div>
     </div>
@@ -245,45 +245,10 @@
     <div class="market-row">
       <span class="market-label">A股</span>
 
-        <div class="market-item">
-          <span class="market-name">上证指数</span>
-          <span class="market-value">4,120.28</span>
-          <span class="market-badge rise">▲ +0.23%</span>
-        </div>
-        <div class="market-item">
-          <span class="market-name">深证成指</span>
-          <span class="market-value">16,344.08</span>
-          <span class="market-badge rise">▲ +1.82%</span>
-        </div>
-        <div class="market-item">
-          <span class="market-name">创业板指</span>
-          <span class="market-value">4,371.99</span>
-          <span class="market-badge rise">▲ +2.84%</span>
-        </div>
-        <div class="market-item">
-          <span class="market-name">沪深300</span>
-          <span class="market-value">5,020.10</span>
-          <span class="market-badge rise">▲ +1.56%</span>
-        </div>
     </div>
     <div class="market-row">
       <span class="market-label">美股</span>
 
-        <div class="market-item">
-          <span class="market-name">标普500</span>
-          <span class="market-value">7,357.49</span>
-          <span class="market-badge fall">▼ -0.01%</span>
-        </div>
-        <div class="market-item">
-          <span class="market-name">纳斯达克</span>
-          <span class="market-value">25,358.60</span>
-          <span class="market-badge fall">▼ -0.46%</span>
-        </div>
-        <div class="market-item">
-          <span class="market-name">道琼斯</span>
-          <span class="market-value">51,920.62</span>
-          <span class="market-badge rise">▲ +0.14%</span>
-        </div>
     </div>
   </section>
 <main class="content-grid">
@@ -292,12 +257,24 @@
       <h2 class="section-title">今日焦点 · AI 热榜</h2>
 
       <article class="hero-lead">
-        <h3 class="hero-headline"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.193">Claude Code v2.1.193 发布</a></h3>
-        <p class="hero-desc">Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。</p>
+        <h3 class="hero-headline"><a href="https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw">Claude Code 6个实用Hook玩法</a></h3>
+        <p class="hero-desc">Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。</p>
       </article>
       <div class="card">
         <ol class="ai-list">
 
+          <li>
+            <span class="ai-item-title"><a href="https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw">Claude Code 6个实用Hook玩法</a></span>
+            <span class="ai-item-tag">观点</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://x.com/xiaohu/status/2070317717811540149">小互开源个人IP配图技能&quot;小互IP Studio&quot;，含31个原创角色</a></span>
+            <span class="ai-item-tag">观点</span>
+          </li>
+          <li>
+            <span class="ai-item-title"><a href="https://x.com/rohanpaul_ai/status/2070288396644491317">@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元</a></span>
+            <span class="ai-item-tag">观点</span>
+          </li>
           <li>
             <span class="ai-item-title"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.193">Claude Code v2.1.193 发布</a></span>
             <span class="ai-item-tag">产品</span>
@@ -326,20 +303,8 @@
             <span class="ai-item-title"><a href="https://runwayml.com/news/introducing-agent-2">Runway发布Agent 2.0</a></span>
             <span class="ai-item-tag">产品</span>
           </li>
-          <li>
-            <span class="ai-item-title"><a href="https://scrollprize.org/firstscroll">赫库兰尼姆古卷首次被完整虚拟解读</a></span>
-            <span class="ai-item-tag">论文</span>
-          </li>
-          <li>
-            <span class="ai-item-title"><a href="https://huggingface.co/blog/allenai/hybrid-token-prediction">OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势</a></span>
-            <span class="ai-item-tag">观点</span>
-          </li>
-          <li>
-            <span class="ai-item-title"><a href="https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception">多数主流AI聊天机器人政治立场偏左，&quot;反觉醒&quot;模型也不例外</a></span>
-            <span class="ai-item-tag">观点</span>
-          </li>
         </ol>
-        <p class="update-time">数据来源：aihot.virxact.com · 更新 07:12</p>
+        <p class="update-time">数据来源：aihot.virxact.com · 更新 10:49</p>
       </div>
     </section>
 
@@ -350,22 +315,22 @@
         <div class="data-row">
           <span class="data-label">沪金主连</span>
           <div class="data-value-group">
-            <span class="data-price">886.60</span>
+            <span class="data-price">874.84</span>
             <span class="data-unit">元/克</span>
-            <span class="data-badge rise">▲ +1.17%</span>
-            <span class="yesterday">昨收 876.35</span>
+            <span class="data-badge fall">▼ -0.17%</span>
+            <span class="yesterday">昨收 876.33</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪银主连</span>
           <div class="data-value-group">
-            <span class="data-price">14.24</span>
+            <span class="data-price">13.62</span>
             <span class="data-unit">元/克</span>
-            <span class="data-badge rise">▲ +1.24%</span>
+            <span class="data-badge fall">▼ -3.15%</span>
             <span class="yesterday">昨收 14.06</span>
           </div>
         </div>
-        <p class="update-time">沪金/沪银主连 · 更新 07:12</p>
+        <p class="update-time">沪金/沪银主连 · 更新 10:49</p>
       </div>
 
       <div class="card">
@@ -374,40 +339,40 @@
         <div class="data-row">
           <span class="data-label">沪铜主连</span>
           <div class="data-value-group">
-            <span class="data-price">102,260</span>
+            <span class="data-price">101,410</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +0.90%</span>
-            <span class="yesterday">昨收 101,348.00</span>
+            <span class="data-badge rise">▲ +0.06%</span>
+            <span class="yesterday">昨收 101,349.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪铝主连</span>
           <div class="data-value-group">
-            <span class="data-price">22,935</span>
+            <span class="data-price">22,840</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge fall">▼ -0.17%</span>
-            <span class="yesterday">昨收 22,974.00</span>
+            <span class="data-badge fall">▼ -0.59%</span>
+            <span class="yesterday">昨收 22,976.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪锌主连</span>
           <div class="data-value-group">
-            <span class="data-price">23,980</span>
+            <span class="data-price">23,750</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge fall">▼ -0.12%</span>
+            <span class="data-badge fall">▼ -1.08%</span>
             <span class="yesterday">昨收 24,009.00</span>
           </div>
         </div>
         <div class="data-row">
           <span class="data-label">沪镍主连</span>
           <div class="data-value-group">
-            <span class="data-price">129,210</span>
+            <span class="data-price">126,660</span>
             <span class="data-unit">元/吨</span>
-            <span class="data-badge rise">▲ +0.17%</span>
-            <span class="yesterday">昨收 128,991.00</span>
+            <span class="data-badge fall">▼ -1.81%</span>
+            <span class="yesterday">昨收 128,995.00</span>
           </div>
         </div>
-        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 07:12</p>
+        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 10:49</p>
       </div>
     </aside>
 
@@ -416,48 +381,125 @@
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655330735338819078/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655330735338819078%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BA%BA%E5%9C%A8%E7%89%9B%E5%B8%82%E9%87%8C%E5%8F%8D%E8%80%8C%E4%BA%8F%E9%92%B1%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655330735338819078">为什么大多数人在牛市里反而亏钱</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655297126033489947/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655297126033489947%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E8%8B%97%E9%87%91%E5%87%A4%E7%A6%BB%E4%B8%96%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655297126033489947">香港演员苗金凤离世</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654551151903277083/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654551151903277083%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%88%85%E8%88%85%E8%88%85%E5%A6%88%E5%B8%A6%E5%A4%A7%E7%9A%84%E5%AD%A9%E5%AD%90%E9%AB%98%E8%80%83%E8%B6%85%E5%B8%B8%E5%8F%91%E6%8C%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654551151903277083">舅舅舅妈带大的孩子高考超常发挥</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654431681442021430/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654431681442021430%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2213%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A7%B0%E9%81%AD%E5%BC%BA%E5%A5%B8%E8%AD%A6%E6%96%B9%E5%B7%B2%E5%88%91%E4%BA%8B%E7%AB%8B%E6%A1%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654431681442021430">13岁女孩称遭强奸警方已刑事立案</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655275650885897770/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655275650885897770%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9D%8E%E5%9C%A8%E6%98%8E%E6%94%AF%E6%8C%81%E7%8E%87%E4%B8%BA%E4%BD%95%E6%9A%B4%E8%B7%8C%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655275650885897770">李在明支持率为何暴跌</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654904166137004095/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654904166137004095%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E7%94%B0%E9%87%8C%E9%81%87%E7%9C%BC%E9%95%9C%E8%9B%87%E7%9B%B4%E6%8E%A5%E4%B8%8A%E6%89%8B%E5%BC%B9%E8%84%91%E7%93%9C%E5%B4%A9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654904166137004095">男子田里遇眼镜蛇直接上手弹脑瓜崩</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654409904472571910/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654409904472571910%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%B0%A2%E9%9C%86%E9%94%8B%E7%8E%8B%E8%8F%B2%E5%88%B0%E8%BE%BE%E8%A5%BF%E5%AE%89%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654409904472571910">谢霆锋王菲到达西安</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655217198819000326/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655217198819000326%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E8%AE%A9%E6%83%85%E4%BA%BA%E4%B8%8E%E4%B8%88%E5%A4%AB%E5%88%86%E5%B1%85%E8%A2%AB%E6%8B%92%E5%90%8E%E6%8B%BD%E5%85%B6%E8%B7%B3%E6%A1%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655217198819000326">男子让情人与丈夫分居被拒后拽其跳桥</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655248566848340006/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655248566848340006%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%9B%E5%B7%9D%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655248566848340006">四川高考分数线公布</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654866150326255679/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654866150326255679%22%2C%22hot_board_impr_id%22%3A%22202606260712499C4B6376947845965318%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%88%B8%E7%88%B8%E6%9F%93%E7%BA%A2%E5%8F%91%E5%A5%B3%E5%84%BF%E5%B4%A9%E6%BA%83%E5%A4%A7%E5%93%AD%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654866150326255679">爸爸染红发女儿崩溃大哭</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654579396897505323/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654579396897505323%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%83%91%E4%B8%BD%E6%96%87%EF%BC%9A%E5%A4%A7%E9%99%86%E6%96%87%E5%8C%96%E8%87%AA%E4%BF%A1%E8%B6%85%E4%B9%8E%E9%A2%84%E6%9C%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654579396897505323">郑丽文：大陆文化自信超乎预期</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655174535248740395/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655174535248740395%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9D%A8%E5%B9%82%E4%B8%BB%E5%8A%A8%E6%90%80%E6%89%B6%E5%AD%99%E4%BF%AA%E6%9D%A8%E7%B4%AB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655174535248740395">杨幂主动搀扶孙俪杨紫</a><span class="hot-label">onSite</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654932084410728454/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654932084410728454%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8D%97%E7%BE%8E%E7%90%83%E9%98%9F%E8%BF%9E%E7%BB%AD4%E5%9C%BA%E6%AD%A3%E9%9D%A2%E5%87%BB%E8%B4%A5%E6%AC%A7%E6%B4%B2%E7%90%83%E9%98%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654932084410728454">南美球队连续4场正面击败欧洲球队</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655503792708468755/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655503792708468755%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B7%B4%E8%A5%BF%E6%97%A5%E6%9C%AC%E9%A6%96%E6%AC%A1%E5%9C%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E5%AF%B9%E5%86%B3%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655503792708468755">巴西日本首次在世界杯淘汰赛对决</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654677226289414180/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654677226289414180%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA%E9%A3%9E%E8%A1%8C2500%E5%85%AC%E9%87%8C%E6%89%93%E5%87%BB%E4%BF%84%E7%82%BC%E6%B2%B9%E5%8E%82%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654677226289414180">乌无人机飞行2500公里打击俄炼油厂</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655480070605114890/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655480070605114890%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E7%AD%96%E5%88%92%E7%BB%84%E7%BB%87%E5%A5%B3%E5%AD%90%E9%93%81%E7%AC%BC%E6%B8%B8%E8%A1%97%E8%A7%86%E9%A2%91%E8%A2%AB%E5%88%91%E6%8B%98%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655480070605114890">男子策划组织女子铁笼游街视频被刑拘</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655021433005785138/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655021433005785138%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B9%96%E5%8C%97%E5%88%86%E6%95%B0%E7%BA%BF%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655021433005785138">湖北分数线</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655473030168120842/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655473030168120842%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%99%BE%E4%BD%99%E5%B9%B4%E6%9C%80%E5%BC%BA%E5%9C%B0%E9%9C%87%E8%87%B4%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89235%E6%AD%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655473030168120842">百余年最强地震致委内瑞拉235死</a><span class="hot-label">recentProgress</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655160467673530422/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655160467673530422%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9B%BE%E7%BB%8F%E5%90%B8%E6%AF%9222%E5%B9%B4%E7%9A%84%E4%BB%96%E5%A6%82%E4%BB%8A%E6%98%AF%E7%A6%81%E6%AF%92%E7%A4%BE%E5%B7%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655160467673530422">曾经吸毒22年的他如今是禁毒社工</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654557827638820874/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654557827638820874%22%2C%22hot_board_impr_id%22%3A%222026062610492649A80BB33ABF85431875%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%80%E6%9C%B5%E4%BA%91%E4%B8%8B20%E5%88%86%E9%92%9F%E9%9B%A8%E8%8C%83%E5%9B%B4%E4%B8%8D%E8%B6%B33%E5%B9%B3%E6%96%B9%E7%B1%B3%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654557827638820874">一朵云下20分钟雨范围不足3平方米</a><span class="hot-label">onSite</span></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条热榜 · 更新 07:12</p>
+        <p class="update-time">数据来源：今日头条热榜 · 更新 10:49</p>
       </div>
     </section>
-<section class="stock-hot" aria-label="A股热榜"><h2 class="section-title">A股热榜</h2></section>
-<section class="sectors" aria-label="股市热榜"><h2 class="section-title">股市热榜</h2></section>
+
+    <section class="stock-hot" aria-label="A股热榜">
+      <h2 class="section-title">A股热榜</h2>
+      <div class="card">
+        <ol class="ranked-list">
+
+          <li><span class="rank-item-title">中际旭创</span><span class="stock-badge fall">▼ -5.03%</span></li>
+          <li><span class="rank-item-title">京东方Ａ</span><span class="stock-badge rise">▲ +5.72%</span></li>
+          <li><span class="rank-item-title">长电科技</span><span class="stock-badge rise">▲ +0.22%</span></li>
+          <li><span class="rank-item-title">兆易创新</span><span class="stock-badge fall">▼ -2.29%</span></li>
+          <li><span class="rank-item-title">新易盛</span><span class="stock-badge fall">▼ -6.71%</span></li>
+          <li><span class="rank-item-title">中天科技</span><span class="stock-badge fall">▼ -9.31%</span></li>
+          <li><span class="rank-item-title">大族激光</span><span class="stock-badge rise">▲ +2.49%</span></li>
+          <li><span class="rank-item-title">立讯精密</span><span class="stock-badge fall">▼ -8.61%</span></li>
+          <li><span class="rank-item-title">亨通光电</span><span class="stock-badge fall">▼ -8.34%</span></li>
+          <li><span class="rank-item-title">澜起科技</span><span class="stock-badge fall">▼ -6.30%</span></li>
+        </ol>
+        <p class="update-time">成交额排行前10 · 更新 10:49</p>
+      </div>
+    </section>
+
+    <section class="sectors" aria-label="股市热榜">
+      <h2 class="section-title">股市热榜</h2>
+      <div class="card">
+        <ol class="ranked-list">
+
+          <li><span class="rank-item-title">辽宁板块</span><span class="sector-badge mixed">分化</span><span class="sector-change fall">▼ -0.94%</span></li>
+          <li><span class="rank-item-title">宁夏板块</span><span class="sector-badge mixed">分化</span><span class="sector-change fall">▼ -0.99%</span></li>
+          <li><span class="rank-item-title">陕西板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.05%</span></li>
+          <li><span class="rank-item-title">吉林板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.47%</span></li>
+          <li><span class="rank-item-title">江苏板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.47%</span></li>
+          <li><span class="rank-item-title">甘肃板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.50%</span></li>
+          <li><span class="rank-item-title">山东板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.62%</span></li>
+          <li><span class="rank-item-title">广西板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.64%</span></li>
+          <li><span class="rank-item-title">安徽板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.65%</span></li>
+          <li><span class="rank-item-title">重庆板块</span><span class="sector-badge fall">承压</span><span class="sector-change fall">▼ -1.66%</span></li>
+        </ol>
+        <p class="update-time">行业板块涨跌幅排行 · 更新 10:49</p>
+      </div>
+    </section>
 
     <section class="stock-news" aria-label="股市新闻">
       <h2 class="section-title">股市新闻</h2>
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655330735338819078/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655330735338819078%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BA%BA%E5%9C%A8%E7%89%9B%E5%B8%82%E9%87%8C%E5%8F%8D%E8%80%8C%E4%BA%8F%E9%92%B1%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655330735338819078">为什么大多数人在牛市里反而亏钱</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655297126033489947/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655297126033489947%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E8%8B%97%E9%87%91%E5%87%A4%E7%A6%BB%E4%B8%96%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655297126033489947">香港演员苗金凤离世</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654551151903277083/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654551151903277083%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%88%85%E8%88%85%E8%88%85%E5%A6%88%E5%B8%A6%E5%A4%A7%E7%9A%84%E5%AD%A9%E5%AD%90%E9%AB%98%E8%80%83%E8%B6%85%E5%B8%B8%E5%8F%91%E6%8C%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654551151903277083">舅舅舅妈带大的孩子高考超常发挥</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654431681442021430/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654431681442021430%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%2213%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A7%B0%E9%81%AD%E5%BC%BA%E5%A5%B8%E8%AD%A6%E6%96%B9%E5%B7%B2%E5%88%91%E4%BA%8B%E7%AB%8B%E6%A1%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654431681442021430">13岁女孩称遭强奸警方已刑事立案</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655275650885897770/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655275650885897770%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9D%8E%E5%9C%A8%E6%98%8E%E6%94%AF%E6%8C%81%E7%8E%87%E4%B8%BA%E4%BD%95%E6%9A%B4%E8%B7%8C%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655275650885897770">李在明支持率为何暴跌</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654904166137004095/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654904166137004095%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E7%94%B0%E9%87%8C%E9%81%87%E7%9C%BC%E9%95%9C%E8%9B%87%E7%9B%B4%E6%8E%A5%E4%B8%8A%E6%89%8B%E5%BC%B9%E8%84%91%E7%93%9C%E5%B4%A9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654904166137004095">男子田里遇眼镜蛇直接上手弹脑瓜崩</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654409904472571910/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654409904472571910%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%B0%A2%E9%9C%86%E9%94%8B%E7%8E%8B%E8%8F%B2%E5%88%B0%E8%BE%BE%E8%A5%BF%E5%AE%89%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654409904472571910">谢霆锋王菲到达西安</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655217198819000326/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655217198819000326%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E8%AE%A9%E6%83%85%E4%BA%BA%E4%B8%8E%E4%B8%88%E5%A4%AB%E5%88%86%E5%B1%85%E8%A2%AB%E6%8B%92%E5%90%8E%E6%8B%BD%E5%85%B6%E8%B7%B3%E6%A1%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655217198819000326">男子让情人与丈夫分居被拒后拽其跳桥</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655248566848340006/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655248566848340006%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%9B%E5%B7%9D%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655248566848340006">四川高考分数线公布</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654866150326255679/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654866150326255679%22%2C%22hot_board_impr_id%22%3A%222026062607125127CEDAA4ACAE0201D4B9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%88%B8%E7%88%B8%E6%9F%93%E7%BA%A2%E5%8F%91%E5%A5%B3%E5%84%BF%E5%B4%A9%E6%BA%83%E5%A4%A7%E5%93%AD%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654866150326255679">爸爸染红发女儿崩溃大哭</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654579396897505323/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654579396897505323%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%83%91%E4%B8%BD%E6%96%87%EF%BC%9A%E5%A4%A7%E9%99%86%E6%96%87%E5%8C%96%E8%87%AA%E4%BF%A1%E8%B6%85%E4%B9%8E%E9%A2%84%E6%9C%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654579396897505323">郑丽文：大陆文化自信超乎预期</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655174535248740395/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655174535248740395%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9D%A8%E5%B9%82%E4%B8%BB%E5%8A%A8%E6%90%80%E6%89%B6%E5%AD%99%E4%BF%AA%E6%9D%A8%E7%B4%AB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655174535248740395">杨幂主动搀扶孙俪杨紫</a><span class="hot-label">onSite</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654932084410728454/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654932084410728454%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8D%97%E7%BE%8E%E7%90%83%E9%98%9F%E8%BF%9E%E7%BB%AD4%E5%9C%BA%E6%AD%A3%E9%9D%A2%E5%87%BB%E8%B4%A5%E6%AC%A7%E6%B4%B2%E7%90%83%E9%98%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654932084410728454">南美球队连续4场正面击败欧洲球队</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655503792708468755/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655503792708468755%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%B7%B4%E8%A5%BF%E6%97%A5%E6%9C%AC%E9%A6%96%E6%AC%A1%E5%9C%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B7%98%E6%B1%B0%E8%B5%9B%E5%AF%B9%E5%86%B3%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655503792708468755">巴西日本首次在世界杯淘汰赛对决</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654677226289414180/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654677226289414180%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA%E9%A3%9E%E8%A1%8C2500%E5%85%AC%E9%87%8C%E6%89%93%E5%87%BB%E4%BF%84%E7%82%BC%E6%B2%B9%E5%8E%82%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654677226289414180">乌无人机飞行2500公里打击俄炼油厂</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655480070605114890/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655480070605114890%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%94%B7%E5%AD%90%E7%AD%96%E5%88%92%E7%BB%84%E7%BB%87%E5%A5%B3%E5%AD%90%E9%93%81%E7%AC%BC%E6%B8%B8%E8%A1%97%E8%A7%86%E9%A2%91%E8%A2%AB%E5%88%91%E6%8B%98%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655480070605114890">男子策划组织女子铁笼游街视频被刑拘</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655021433005785138/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655021433005785138%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B9%96%E5%8C%97%E5%88%86%E6%95%B0%E7%BA%BF%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655021433005785138">湖北分数线</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655473030168120842/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655473030168120842%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%99%BE%E4%BD%99%E5%B9%B4%E6%9C%80%E5%BC%BA%E5%9C%B0%E9%9C%87%E8%87%B4%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89235%E6%AD%BB%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655473030168120842">百余年最强地震致委内瑞拉235死</a><span class="hot-label">recentProgress</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7655160467673530422/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227655160467673530422%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%9B%BE%E7%BB%8F%E5%90%B8%E6%AF%9222%E5%B9%B4%E7%9A%84%E4%BB%96%E5%A6%82%E4%BB%8A%E6%98%AF%E7%A6%81%E6%AF%92%E7%A4%BE%E5%B7%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7655160467673530422">曾经吸毒22年的他如今是禁毒社工</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7654557827638820874/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2212%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227654557827638820874%22%2C%22hot_board_impr_id%22%3A%22202606261049276F34AF014FB52C61F64D%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%80%E6%9C%B5%E4%BA%91%E4%B8%8B20%E5%88%86%E9%92%9F%E9%9B%A8%E8%8C%83%E5%9B%B4%E4%B8%8D%E8%B6%B33%E5%B9%B3%E6%96%B9%E7%B1%B3%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7654557827638820874">一朵云下20分钟雨范围不足3平方米</a><span class="hot-label">onSite</span></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条财经热榜 · 更新 07:12</p>
+        <p class="update-time">数据来源：今日头条财经热榜 · 更新 10:49</p>
       </div>
     </section>
-<section class="themes" aria-label="热门题材"><h2 class="section-title">热门题材</h2></section>
+
+    <section class="themes" aria-label="热门题材">
+      <h2 class="section-title">热门题材</h2>
+      <div class="card">
+        <ol class="ranked-list">
+
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">昨日打二板以上表现</span><span class="theme-change rise">▲ +6.52%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">昨日连板_含一字</span><span class="theme-change rise">▲ +3.38%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">玻璃基板</span><span class="theme-change rise">▲ +2.58%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">3D玻璃</span><span class="theme-change rise">▲ +2.05%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">昨日连板</span><span class="theme-change rise">▲ +1.81%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">纳米银</span><span class="theme-change rise">▲ +1.80%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">植物照明</span><span class="theme-change rise">▲ +1.73%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">电子纸概念</span><span class="theme-change rise">▲ +1.68%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">工业气体</span><span class="theme-change rise">▲ +1.49%</span></div>
+          </li>
+          <li class="theme-item">
+            <div class="theme-item-header"><span class="theme-dot"></span><span class="rank-item-title">显示技术</span><span class="theme-change rise">▲ +1.30%</span></div>
+          </li>
+        </ol>
+        <p class="update-time">概念板块涨跌幅排行 · 更新 10:49</p>
+      </div>
+    </section>
 </main>
 
   <footer>
     <p class="footer-brand">日报</p>
-    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年06月26日 07:12</p>
+    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年06月26日 10:49</p>
   </footer>
 </body>
 </html>
