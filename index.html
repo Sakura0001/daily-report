@@ -193,7 +193,7 @@
         <h1>日报<span class="brand-en">Daily Report</span></h1>
       </div>
       <div class="date-info">
-        <time datetime="2026-07-12">2026年07月12日</time> · 星期日 · 16:08 更新
+        <time datetime="2026-07-12">2026年07月12日</time> · 星期日 · 18:22 更新
       </div>
     </div>
     <hr class="header-rule">
@@ -206,36 +206,36 @@
       <div class="crypto-item">
         <span class="crypto-name">BTC</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$63,895.00</span>
-          <span class="crypto-badge fall">▼ -0.36%</span>
+          <span class="crypto-value">$63,880.00</span>
+          <span class="crypto-badge fall">▼ -0.35%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">ETH</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$1,799.93</span>
-          <span class="crypto-badge rise">▲ +0.09%</span>
+          <span class="crypto-value">$1,800.43</span>
+          <span class="crypto-badge rise">▲ +0.29%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">BNB</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$572.30</span>
-          <span class="crypto-badge fall">▼ -0.69%</span>
+          <span class="crypto-value">$574.26</span>
+          <span class="crypto-badge fall">▼ -0.45%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">SOL</span>
         <div class="crypto-price-row">
-          <span class="crypto-value">$76.51</span>
-          <span class="crypto-badge fall">▼ -1.83%</span>
+          <span class="crypto-value">$76.69</span>
+          <span class="crypto-badge fall">▼ -1.38%</span>
         </div>
       </div>
       <div class="crypto-item">
         <span class="crypto-name">DOGE</span>
         <div class="crypto-price-row">
           <span class="crypto-value">$0.07</span>
-          <span class="crypto-badge fall">▼ -1.69%</span>
+          <span class="crypto-badge fall">▼ -1.68%</span>
         </div>
       </div>
     </div>
@@ -245,10 +245,45 @@
     <div class="market-row">
       <span class="market-label">A股</span>
 
+        <div class="market-item">
+          <span class="market-name">上证指数</span>
+          <span class="market-value">3,996.16</span>
+          <span class="market-badge fall">▼ -1.00%</span>
+        </div>
+        <div class="market-item">
+          <span class="market-name">深证成指</span>
+          <span class="market-value">15,046.67</span>
+          <span class="market-badge fall">▼ -2.29%</span>
+        </div>
+        <div class="market-item">
+          <span class="market-name">创业板指</span>
+          <span class="market-value">3,842.73</span>
+          <span class="market-badge fall">▼ -4.37%</span>
+        </div>
+        <div class="market-item">
+          <span class="market-name">沪深300</span>
+          <span class="market-value">4,780.79</span>
+          <span class="market-badge fall">▼ -1.96%</span>
+        </div>
     </div>
     <div class="market-row">
       <span class="market-label">美股</span>
 
+        <div class="market-item">
+          <span class="market-name">标普500</span>
+          <span class="market-value">7,575.39</span>
+          <span class="market-badge rise">▲ +0.42%</span>
+        </div>
+        <div class="market-item">
+          <span class="market-name">纳斯达克</span>
+          <span class="market-value">26,281.61</span>
+          <span class="market-badge rise">▲ +0.29%</span>
+        </div>
+        <div class="market-item">
+          <span class="market-name">道琼斯</span>
+          <span class="market-value">52,637.01</span>
+          <span class="market-badge rise">▲ +0.29%</span>
+        </div>
     </div>
   </section>
 <main class="content-grid">
@@ -257,12 +292,16 @@
       <h2 class="section-title">今日焦点 · AI 热榜</h2>
 
       <article class="hero-lead">
-        <h3 class="hero-headline"><a href="https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547">xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史</a></h3>
-        <p class="hero-desc">对 xAI 官方 Grok Build 编码 CLI（grok 0.2.93）的网络流量分析显示，该工具在消费者登录后会向 xAI 发送三类数据：一是它读取的文件内容（包括 .env 密钥文件）以明文形式通过 POST /v1/responses 传输，并同时打包成 session_state 存档通过 POST /v1/storage 上传并获 HTTP 200 确认；二是整个仓库的全部文件内容及 git 历史，独立于 AI 智能体实际读取的文件--即使提示&quot;不要读取任何文件&quot;，Grok 仍将整个仓库作为 git bundle 上传至 Google Cloud Storage 的 grok-code-session-traces 存储桶；三是该上传机制默认开启，且关闭&quot;改进模型&quot;设置不会禁用（/v1/settings 仍返回 trace_upload_enabled： true）。在 12 GB 仓库测试中，/v1/storage 传输了 5.10 GiB 数据，而模型对话通道仅传输 192 KB，比例约 27，800 倍。分析未证明 xAI 使用这些数据进行训练，但证实了数据被传输、接收并存储。</p>
+        <h3 class="hero-headline"><a href="https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs">OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论</a></h3>
+        <p class="hero-desc">OpenAI CEO Sam Altman 表示，他&quot;相当确信&quot;AI 迄今为止净创造了就业，并承认&quot;这并非我预期&quot;。此前他曾警告 AI 影响可能快得&quot;有点吓人&quot;。Anthropic CEO Dario Amodei 也修正了早期言论，将自动化描述为生产力倍增器而非岗位杀手。然而，多项研究未发现 AI 对整体生产力或劳动力市场产生显著影响。一项多校联合研究指出，程序员和文案的就业危机始于 2022 年初，早于 ChatGPT 发布。耶鲁预算实验室也未发现与 AI 相关的就业市场变化。</p>
       </article>
       <div class="card">
         <ol class="ai-list">
 
+          <li>
+            <span class="ai-item-title"><a href="https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs">OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论</a></span>
+            <span class="ai-item-tag">观点</span>
+          </li>
           <li>
             <span class="ai-item-title"><a href="https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547">xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史</a></span>
             <span class="ai-item-tag">观点</span>
@@ -287,20 +326,8 @@
             <span class="ai-item-title"><a href="https://www.ithome.com/0/975/634.htm">彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句&quot;哈哈&quot;成窃密关键</a></span>
             <span class="ai-item-tag">行业</span>
           </li>
-          <li>
-            <span class="ai-item-title"><a href="https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development">研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发</a></span>
-            <span class="ai-item-tag">行业</span>
-          </li>
-          <li>
-            <span class="ai-item-title"><a href="https://x.com/sama/status/2075985056846451123">OpenAI 发布 GPT-5.6 系列医疗评估结果</a></span>
-            <span class="ai-item-tag">模型</span>
-          </li>
-          <li>
-            <span class="ai-item-title"><a href="https://www.mixfont.com/ghost-font">Ghost Font：一种人类能读懂但AI无法识别的反AI字体</a></span>
-            <span class="ai-item-tag">观点</span>
-          </li>
         </ol>
-        <p class="update-time">数据来源：aihot.virxact.com · 更新 16:08</p>
+        <p class="update-time">数据来源：aihot.virxact.com · 更新 18:22</p>
       </div>
     </section>
 
@@ -308,13 +335,67 @@
       <div class="card">
         <h2 class="sidebar-title">金价动态</h2>
 
-        <p class="update-time">沪金/沪银主连 · 更新 16:08</p>
+        <div class="data-row">
+          <span class="data-label">沪金主连</span>
+          <div class="data-value-group">
+            <span class="data-price">896.38</span>
+            <span class="data-unit">元/克</span>
+            <span class="data-badge fall">▼ -0.56%</span>
+            <span class="yesterday">昨收 901.43</span>
+          </div>
+        </div>
+        <div class="data-row">
+          <span class="data-label">沪银主连</span>
+          <div class="data-value-group">
+            <span class="data-price">14.59</span>
+            <span class="data-unit">元/克</span>
+            <span class="data-badge fall">▼ -0.58%</span>
+            <span class="yesterday">昨收 14.67</span>
+          </div>
+        </div>
+        <p class="update-time">沪金/沪银主连 · 更新 18:22</p>
       </div>
 
       <div class="card">
         <h2 class="sidebar-title">重金属价格</h2>
 
-        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 16:08</p>
+        <div class="data-row">
+          <span class="data-label">沪铜主连</span>
+          <div class="data-value-group">
+            <span class="data-price">103,790</span>
+            <span class="data-unit">元/吨</span>
+            <span class="data-badge fall">▼ -0.02%</span>
+            <span class="yesterday">昨收 103,811.00</span>
+          </div>
+        </div>
+        <div class="data-row">
+          <span class="data-label">沪铝主连</span>
+          <div class="data-value-group">
+            <span class="data-price">23,030</span>
+            <span class="data-unit">元/吨</span>
+            <span class="data-badge fall">▼ -0.28%</span>
+            <span class="yesterday">昨收 23,095.00</span>
+          </div>
+        </div>
+        <div class="data-row">
+          <span class="data-label">沪锌主连</span>
+          <div class="data-value-group">
+            <span class="data-price">24,865</span>
+            <span class="data-unit">元/吨</span>
+            <span class="data-badge fall">▼ -0.18%</span>
+            <span class="yesterday">昨收 24,910.00</span>
+          </div>
+        </div>
+        <div class="data-row">
+          <span class="data-label">沪镍主连</span>
+          <div class="data-value-group">
+            <span class="data-price">129,010</span>
+            <span class="data-unit">元/吨</span>
+            <span class="data-badge rise">▲ +0.78%</span>
+            <span class="yesterday">昨收 128,012.00</span>
+          </div>
+        </div>
+        <p class="update-time">沪铜/沪铝/沪锌/沪镍主连 · 更新 18:22</p>
       </div>
     </aside>
 
@@ -323,18 +404,18 @@
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661196978403131446/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%223%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661196978403131446%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%8C%AA%E5%A8%81%E4%B8%BB%E5%B8%85%EF%BC%9A%E8%A3%81%E5%88%A4%E5%92%8C%E8%BF%90%E6%B0%94%E4%B8%8D%E5%9C%A8%E6%88%91%E4%BB%AC%E8%BF%99%E8%BE%B9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661196978403131446">挪威主帅：裁判和运气不在我们这边</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660336683767300159/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660336683767300159%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%AD%A6%E6%B1%89%E6%9A%82%E5%81%9C%E4%B8%80%E5%88%87%E7%BA%BF%E4%B8%8B%E7%BE%A4%E4%BC%97%E6%80%A7%E4%BD%93%E8%82%B2%E8%B5%9B%E4%BA%8B%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660336683767300159">武汉暂停一切线下群众性体育赛事</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660457920686997540/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660457920686997540%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%98%E6%88%90%E6%AC%A7%E6%B4%B2%E6%9D%AF%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%98%9F%E4%B8%8D%E7%AD%94%E5%BA%94%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660457920686997540">世界杯变成欧洲杯阿根廷队不答应</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660737122642526227/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660737122642526227%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%B7%B1%E5%85%A5%E5%86%85%E9%99%86%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660737122642526227">台风巴威深入内陆</a><span class="hot-label">hot</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660428637564715058/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660428637564715058%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B5%99%E6%B1%9F%E7%A6%8F%E5%BB%BA%E7%AD%89%E5%9C%B0%E9%AB%98%E6%B8%A9%E5%B0%86%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660428637564715058">浙江福建等地高温将卷土重来</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660967145970417705/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660967145970417705%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%88%98%E6%99%93%E8%89%B3%EF%BC%9A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E5%85%A8%E6%98%AF%E5%91%A8%E6%98%9F%E9%A9%B0%E7%9A%84%E5%BD%B1%E5%AD%90%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660967145970417705">刘晓艳：功夫女足全是周星驰的影子</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660383102384554010/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660383102384554010%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%A9%B9%E4%BF%8A%EF%BC%9A%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%9B%E6%94%BB%E7%AB%AF%E5%85%A8%E9%9D%A2%E9%87%8A%E6%94%BE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660383102384554010">詹俊：阿根廷进攻端全面释放</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661495026735648299/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661495026735648299%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%91%9F%E6%B4%9B%E7%89%B9%E4%B8%BA%E4%BD%95%E4%B8%8D%E4%BC%A0%E7%90%83%E7%BB%99%E5%93%88%E5%85%B0%E5%BE%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661495026735648299">瑟洛特为何不传球给哈兰德</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660768642728054313/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660768642728054313%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%A0%E5%8F%B0%E9%A3%8E%E6%9E%9C%E5%86%9C1%E5%A4%A9%E6%8A%A2%E6%94%B6300%E6%96%A4%E8%91%A1%E8%90%84%E7%A5%9E%E6%83%85%E8%90%BD%E5%AF%9E%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660768642728054313">因台风果农1天抢收300斤葡萄神情落寞</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660529282170535978/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%224%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660529282170535978%22%2C%22hot_board_impr_id%22%3A%2220260712160757310524BDFEF7F23A98E9%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%B2%81%E6%AF%94%E5%A5%A5%E8%A2%AB%E6%8C%87%E9%81%A5%E6%8E%A7%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660529282170535978">鲁比奥被指遥控委内瑞拉</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660733352848605220/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660733352848605220%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B2%B3%E5%8D%97%E5%A4%9A%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E6%9A%91%E6%9C%9F%E5%BB%B6%E6%97%B6%E5%BC%80%E6%94%BE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660733352848605220">河南多家博物馆暑期延时开放</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660494002474516486/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660494002474516486%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%9F%A9%E7%BA%A2%E6%BC%94%E5%94%B1%E4%BC%9A%E6%AD%A6%E6%B1%89%E7%AB%99%E5%8F%96%E6%B6%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660494002474516486">韩红演唱会武汉站取消</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660967145970417705/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660967145970417705%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%88%98%E6%99%93%E8%89%B3%EF%BC%9A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E5%85%A8%E6%98%AF%E5%91%A8%E6%98%9F%E9%A9%B0%E7%9A%84%E5%BD%B1%E5%AD%90%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660967145970417705">刘晓艳：功夫女足全是周星驰的影子</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661526556414951467/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661526556414951467%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%97%85%E7%BE%8E%E7%90%83%E5%91%98%E9%82%93%E9%9B%A8%E5%A9%B7%E5%8D%B3%E5%B0%86%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%BC%9A%E5%90%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661526556414951467">旅美球员邓雨婷即将与中国女篮会合</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661254174600560683/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661254174600560683%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%99%BD%E5%B2%A9%E6%9D%BE%EF%BC%9A%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%9B%E5%9B%9B%E5%BC%BA%E5%B7%B2%E6%98%AF%E5%A5%87%E8%BF%B9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661254174600560683">白岩松：阿根廷进四强已是奇迹</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660731999812010034/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660731999812010034%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8F%B2%E5%BE%8B%E5%AE%BE%E6%9B%BE%E4%B9%A6%E9%9D%A2%E6%89%BF%E8%AE%A4%E9%BB%84%E5%B2%A9%E5%B2%9B%E9%9D%9E%E5%85%B6%E9%A2%86%E5%9C%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660731999812010034">菲律宾曾书面承认黄岩岛非其领土</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661541761474641926/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661541761474641926%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E2%80%9C%E5%8D%97%E6%B5%B7%E4%BB%B2%E8%A3%81%E6%A1%88%E2%80%9D%E5%8D%81%E5%91%A8%E5%B9%B4%E8%8F%B2%E4%B8%BA%E4%BD%95%E6%88%8F%E7%98%BE%E5%A4%A7%E5%8F%91%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661541761474641926">“南海仲裁案”十周年菲为何戏瘾大发</a><span class="hot-label">interpretation</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661475870533189673/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661475870533189673%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E5%9B%BD%E4%BC%81%E8%80%81%E6%9D%BF%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%94%B6%E7%A4%BC%EF%BC%9A%E5%B7%B2%E5%85%8D%E8%81%8C%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661475870533189673">官方通报国企老板办公室收礼：已免职</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661316829142597651/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661316829142597651%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%91%A8%E6%98%9F%E9%A9%B0%E7%BB%8F%E7%BA%AA%E4%BA%BA%E8%B0%A2%E8%B0%A2%E5%BC%A0%E8%89%BA%E5%85%B4%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661316829142597651">周星驰经纪人谢谢张艺兴</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660768642728103465/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660768642728103465%22%2C%22hot_board_impr_id%22%3A%22202607121822236B7F004C9A7559F3D501%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%B4%9D%E6%9E%97%E5%8E%84%E5%A7%86%E4%B8%80%E7%A7%92%E5%93%84%E5%A5%BD%E5%93%88%E5%85%B0%E5%BE%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660768642728103465">贝林厄姆一秒哄好哈兰德</a><span class="hot-label">new</span></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条热榜 · 更新 16:08</p>
+        <p class="update-time">数据来源：今日头条热榜 · 更新 18:22</p>
       </div>
     </section>
 <section class="stock-hot" aria-label="A股热榜"><h2 class="section-title">A股热榜</h2></section>
@@ -345,18 +426,18 @@
       <div class="card">
         <ol class="ranked-list">
 
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661196978403131446/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%223%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661196978403131446%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%8C%AA%E5%A8%81%E4%B8%BB%E5%B8%85%EF%BC%9A%E8%A3%81%E5%88%A4%E5%92%8C%E8%BF%90%E6%B0%94%E4%B8%8D%E5%9C%A8%E6%88%91%E4%BB%AC%E8%BF%99%E8%BE%B9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661196978403131446">挪威主帅：裁判和运气不在我们这边</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660336683767300159/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660336683767300159%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%AD%A6%E6%B1%89%E6%9A%82%E5%81%9C%E4%B8%80%E5%88%87%E7%BA%BF%E4%B8%8B%E7%BE%A4%E4%BC%97%E6%80%A7%E4%BD%93%E8%82%B2%E8%B5%9B%E4%BA%8B%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660336683767300159">武汉暂停一切线下群众性体育赛事</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660457920686997540/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660457920686997540%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%98%E6%88%90%E6%AC%A7%E6%B4%B2%E6%9D%AF%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%98%9F%E4%B8%8D%E7%AD%94%E5%BA%94%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660457920686997540">世界杯变成欧洲杯阿根廷队不答应</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660737122642526227/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660737122642526227%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E6%B7%B1%E5%85%A5%E5%86%85%E9%99%86%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660737122642526227">台风巴威深入内陆</a><span class="hot-label">hot</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660428637564715058/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660428637564715058%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B5%99%E6%B1%9F%E7%A6%8F%E5%BB%BA%E7%AD%89%E5%9C%B0%E9%AB%98%E6%B8%A9%E5%B0%86%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660428637564715058">浙江福建等地高温将卷土重来</a><span class="hot-label">new</span></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660967145970417705/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660967145970417705%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%88%98%E6%99%93%E8%89%B3%EF%BC%9A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E5%85%A8%E6%98%AF%E5%91%A8%E6%98%9F%E9%A9%B0%E7%9A%84%E5%BD%B1%E5%AD%90%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660967145970417705">刘晓艳：功夫女足全是周星驰的影子</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660383102384554010/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660383102384554010%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%A9%B9%E4%BF%8A%EF%BC%9A%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%9B%E6%94%BB%E7%AB%AF%E5%85%A8%E9%9D%A2%E9%87%8A%E6%94%BE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660383102384554010">詹俊：阿根廷进攻端全面释放</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661495026735648299/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%2213%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661495026735648299%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%91%9F%E6%B4%9B%E7%89%B9%E4%B8%BA%E4%BD%95%E4%B8%8D%E4%BC%A0%E7%90%83%E7%BB%99%E5%93%88%E5%85%B0%E5%BE%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661495026735648299">瑟洛特为何不传球给哈兰德</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660768642728054313/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660768642728054313%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%9B%A0%E5%8F%B0%E9%A3%8E%E6%9E%9C%E5%86%9C1%E5%A4%A9%E6%8A%A2%E6%94%B6300%E6%96%A4%E8%91%A1%E8%90%84%E7%A5%9E%E6%83%85%E8%90%BD%E5%AF%9E%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660768642728054313">因台风果农1天抢收300斤葡萄神情落寞</a></span></li>
-          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660529282170535978/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%224%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660529282170535978%22%2C%22hot_board_impr_id%22%3A%22202607121607592F973310568C5160B871%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%B2%81%E6%AF%94%E5%A5%A5%E8%A2%AB%E6%8C%87%E9%81%A5%E6%8E%A7%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660529282170535978">鲁比奥被指遥控委内瑞拉</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660733352848605220/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660733352848605220%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%B2%B3%E5%8D%97%E5%A4%9A%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E6%9A%91%E6%9C%9F%E5%BB%B6%E6%97%B6%E5%BC%80%E6%94%BE%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660733352848605220">河南多家博物馆暑期延时开放</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660494002474516486/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660494002474516486%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%9F%A9%E7%BA%A2%E6%BC%94%E5%94%B1%E4%BC%9A%E6%AD%A6%E6%B1%89%E7%AB%99%E5%8F%96%E6%B6%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660494002474516486">韩红演唱会武汉站取消</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660967145970417705/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660967145970417705%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%88%98%E6%99%93%E8%89%B3%EF%BC%9A%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E5%85%A8%E6%98%AF%E5%91%A8%E6%98%9F%E9%A9%B0%E7%9A%84%E5%BD%B1%E5%AD%90%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660967145970417705">刘晓艳：功夫女足全是周星驰的影子</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661526556414951467/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661526556414951467%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%97%85%E7%BE%8E%E7%90%83%E5%91%98%E9%82%93%E9%9B%A8%E5%A9%B7%E5%8D%B3%E5%B0%86%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%BC%9A%E5%90%88%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661526556414951467">旅美球员邓雨婷即将与中国女篮会合</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661254174600560683/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661254174600560683%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%99%BD%E5%B2%A9%E6%9D%BE%EF%BC%9A%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%BF%9B%E5%9B%9B%E5%BC%BA%E5%B7%B2%E6%98%AF%E5%A5%87%E8%BF%B9%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661254174600560683">白岩松：阿根廷进四强已是奇迹</a><span class="hot-label">new</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660731999812010034/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660731999812010034%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%8F%B2%E5%BE%8B%E5%AE%BE%E6%9B%BE%E4%B9%A6%E9%9D%A2%E6%89%BF%E8%AE%A4%E9%BB%84%E5%B2%A9%E5%B2%9B%E9%9D%9E%E5%85%B6%E9%A2%86%E5%9C%9F%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660731999812010034">菲律宾曾书面承认黄岩岛非其领土</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661541761474641926/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661541761474641926%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E2%80%9C%E5%8D%97%E6%B5%B7%E4%BB%B2%E8%A3%81%E6%A1%88%E2%80%9D%E5%8D%81%E5%91%A8%E5%B9%B4%E8%8F%B2%E4%B8%BA%E4%BD%95%E6%88%8F%E7%98%BE%E5%A4%A7%E5%8F%91%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661541761474641926">“南海仲裁案”十周年菲为何戏瘾大发</a><span class="hot-label">interpretation</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661475870533189673/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%220%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661475870533189673%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E5%9B%BD%E4%BC%81%E8%80%81%E6%9D%BF%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%94%B6%E7%A4%BC%EF%BC%9A%E5%B7%B2%E5%85%8D%E8%81%8C%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661475870533189673">官方通报国企老板办公室收礼：已免职</a><span class="hot-label">hot</span></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7661316829142597651/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227661316829142597651%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%91%A8%E6%98%9F%E9%A9%B0%E7%BB%8F%E7%BA%AA%E4%BA%BA%E8%B0%A2%E8%B0%A2%E5%BC%A0%E8%89%BA%E5%85%B4%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7661316829142597651">周星驰经纪人谢谢张艺兴</a></span></li>
+          <li><span class="rank-item-title"><a href="https://www.toutiao.com/trending/7660768642728103465/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227660768642728103465%22%2C%22hot_board_impr_id%22%3A%2220260712182224B19E06A997776EA88763%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E8%B4%9D%E6%9E%97%E5%8E%84%E5%A7%86%E4%B8%80%E7%A7%92%E5%93%84%E5%A5%BD%E5%93%88%E5%85%B0%E5%BE%B7%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7660768642728103465">贝林厄姆一秒哄好哈兰德</a><span class="hot-label">new</span></span></li>
         </ol>
-        <p class="update-time">数据来源：今日头条财经热榜 · 更新 16:08</p>
+        <p class="update-time">数据来源：今日头条财经热榜 · 更新 18:22</p>
       </div>
     </section>
 <section class="themes" aria-label="热门题材"><h2 class="section-title">热门题材</h2></section>
@@ -364,7 +445,7 @@
 
   <footer>
     <p class="footer-brand">日报</p>
-    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年07月12日 16:08</p>
+    <p class="footer-sub">每日精选资讯 · 数据来源仅供参考 · 2026年07月12日 18:22</p>
   </footer>
 </body>
 </html>
